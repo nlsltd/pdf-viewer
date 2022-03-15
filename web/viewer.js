@@ -2168,7 +2168,25 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "http://mozilla.github.io", "https://mozilla.github.io", 
+    "bg.angels-initiative.com",
+    "cz.angels-initiative.com",
+    "www.angels-initiative.com",
+    "es.angels-initiative.com",
+    "fr.angels-initiative.com",
+    "it.angels-initiative.com",
+    "hu.angels-initiative.com",
+    "pl.angels-initiative.com",
+    "pt.angels-initiative.com",
+    "ru.angels-initiative.com",
+    "ro.angels-initiative.com",
+    "sk.angels-initiative.com",
+    "ua.angels-initiative.com",
+    "vn.angels-initiative.com",
+    "id.angels-initiative.com",
+    "kr.angels-initiative.com",
+    "th.angels-initiative.com"
+    ];
 
   validateFileURL = function (file) {
     if (file === undefined) {
