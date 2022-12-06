@@ -2183,7 +2183,7 @@ let validateFileURL;
         return;
       }
 
-      if(viewerOrigin.includes('.angels-initiative.com')) {
+      if(viewerOrigin.includes('.angels-initiative.com') || viewerOrigin.includes('.nlsdev.co.uk')) {
         return;
       }
 
